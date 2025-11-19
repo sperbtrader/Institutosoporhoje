@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instituto Só Por Hoje</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #eef3f7;
+        color: #222;
+        line-height: 1.7;
+    }
+
+    header {
+        background: linear-gradient(135deg, #004e92, #0a75c2);
+        padding: 40px 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    .box {
+        background: white;
+        padding: 30px;
+        border-radius: 14px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        margin-bottom: 40px;
+        animation: fadeIn 1.2s ease;
+    }
+
+    h2 {
+        color: #0a75c2;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 1.08rem;
+        margin-bottom: 16px;
+    }
+
+    .cta {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 14px 28px;
+        background: #0a75c2;
+        color: #fff;
+        font-size: 1.1rem;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #004e92;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        margin-top: 40px;
+        background: #002f55;
+        color: white;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(25px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Instituto Só Por Hoje</h1>
+    <p>Um dia de cada vez. Uma vida de cada vez.</p>
+</header>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Nosso Início</h2>
+        <p>
+            Em outubro de 2024, nascia um sonho. Um sonho que começou pequeno, tímido, mas carregado de esperança.
+            Assim surgia o Instituto Só Por Hoje, uma comunidade terapêutica criada para transformar vidas e oferecer um recomeço.
+        </p>
+        <p>
+            O primeiro passo foi dado na Avenida Vicente Monteggia, no bairro Vila Nova, em Porto Alegre. Um espaço simples, mas cheio de propósito.
+            Ali começaram os primeiros atendimentos, os primeiros desafios e também as primeiras vitórias.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Superação e Fé</h2>
+        <p>
+            Mas nenhum começo é fácil. Obstáculos, incertezas e limitações fizeram parte da jornada.
+            Dias em que o caminho parecia grande demais para tão poucas pessoas.
+        </p>
+        <p>
+            Mesmo assim, o projeto nunca parou. Porque tudo que vale a pena exige coragem — e fé. Muita fé.
+        </p>
+        <p>
+            Poucos estiveram presentes desde o início. Poucos, mas essenciais.
+            Essas pessoas atravessaram cada dificuldade, cada madrugada de trabalho e cada dúvida.
+            E hoje seguem ao lado do Instituto, construindo essa história com o coração.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Crescimento</h2>
+        <p>
+            Com o tempo, o sonho cresceu.
+            E no dia 18 de novembro, celebramos um ano da unidade localizada no Belém Novo, também em Porto Alegre.
+        </p>
+        <p>
+            Um ano de conquistas, de novos sorrisos, de vidas restauradas e de um trabalho que se fortalece a cada dia.
+            Hoje, o Instituto Só Por Hoje não é apenas um lugar: é uma família.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Gratidão</h2>
+        <p>
+            Este projeto foi sonhado. Foi construído com luta. E hoje é celebrado com gratidão.
+            Cada história, cada vitória e cada pessoa que passou por aqui faz parte de quem somos.
+        </p>
+        <p>
+            Somos gratos a cada família que confiou no nosso trabalho.
+            Gratos pelas mais de 100 pessoas que por aqui passaram e deixaram uma boa lembrança.
+        </p>
+        <p>
+            Muitas histórias foram escritas. Muitas vidas foram salvas. Muitas famílias foram restauradas.
+        </p>
+
+        <div class="cta">
+            <a href="#" class="btn">Fale Conosco</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © Instituto Só Por Hoje — Porto Alegre, RS
+</footer>
+
+</body>
+</html>
